@@ -1,0 +1,70 @@
+/*
+@author: Shahrukh Khan
+@website: http://www.thesoftwareguy.in
+@date published: 18th October, 2013
+*/
+* {
+margin: 0;
+}
+
+html, body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+a{
+	text-decoration: none;
+    color: #FFFFFF;
+}
+a:hover { color: #8D8D8D; }
+a:visited, a:active { text-decoration: none; color:#6D37B0; }
+#body{ 
+	width: 1004px;
+    margin: 0 auto;
+    max-width: 100%;
+	padding:20px 0 70px 0;
+	height: 100%;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+	left:0;
+    height: 70px;
+    width: 100%;
+	background:#f7f7f7;
+	color:#000;
+}
+.copyright{float:left;padding:10px 0 0 20px; }
+.footerlogo{float:right;padding:10px 20px 0 0;}
+.resultRow{width:100%; margin:2px 0; border:1px solid #8D8D8D;padding:2px; color:#000;}
+.height10{clear:both;height:10px;}
+.height30{clear:both;height:30px;}
+
+.mainTitle{ font-size:30px; text-align:center; padding-bottom:20px;text-decoration:underline;}
+.title{ font-size:20px; padding:10px;}
+
+/****************************************************/
+.row{width:100%;margin-bottom:10px;}
+.flipbox-container.box50{display:inline-block;}
+.flipbox{height:auto;background:none !important;position:relative;}
+.flipbox h1,.flipbox2 h1{text-align:center; font-size:40px; text-align:center;padding:120px 0; color:#FFFFFF;}
+.flipbox .imgs{text-align:center; padding:20px 0; color:#FFFFFF;}
+.flipbox span.big{font-size:65px;top:110px;left:190px;}
+.box100{width:100%;margin-bottom:15px;}
+.box50{width:49.180327868%;}
+.odd{margin-right:1.639344262%;}
+.btn{padding:5px 10px;margin:0 5px;background:#2893b9;color:#FFF;text-decoration:none;display:block;}
+#action-btn{margin:0 auto 15px;padding:0;width:350px;}
+#action-btn li{float:left;list-style-type:none;color:#FFFFFF;}
+#action-btn li a{color:#FFFFFF;}
+#btn-top{background:#b6d635;}
+#btn-bottom{background:#03588C;}
+#forgot_password,#rev{color:#B6D635;}
+.flipbox2{height:300px;background:#006633;position:relative;color:#FFFFFF;}
